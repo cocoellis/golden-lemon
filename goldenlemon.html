@@ -1,0 +1,78 @@
+
+    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Playfair+Display|Roboto:100" rel="stylesheet">
+    <!-- Normalize.css, a cross-browser reset file -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <title>golden lemon</title>
+</head>
+
+<body>
+
+    <header class="header-main" role="banner">
+        <div class="row">
+            <div class="header-left cursive">
+                <a href="index.html"><h2>golden lemon</h2></a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <section class="js-loading hidden"><span><i class="fa fa-spinner fa-spin"></i>Loading...</span></section>
+        <section class="row">
+            <div class="col-12 error js-error hidden"></div>
+        </section>
+        <main role="main">
+            <section class="get-started js-get-started">
+                <p>Get started planning your perfect meal</p>
+                <p>Search thousands of recipes</p>
+                <button class="btn btn--green js-btn-start">Get started!</button>
+            </section>
+            <section class="row search-btn-row js-search-btn-row hidden">
+                <button class="btn btn--green js-btn-search"><b>New Search</b></button>
+            </section>
+            <div class="sort-by js-sort-by hidden">
+                Sort by:
+                <select name="sortBy" id="sortBy">
+                    <option value="">Select an option</option>
+                    <option value="totalTime">Prep time</option>
+                    <option value="calories">Calories</option>
+                    <option value="ingredients">Number of ingredients</option>
+                </select>
+            </div>
+            <section class="js-recipes">
+            </section>
+        </main>       
+
+        <form class="js-search-form container hidden">
+            <label for="search-text"><b>Enter a recipe name or ingredient to search for</b></label>
+            <input type="text" placeholder="Enter a recipe name or ingredient to search for" class="js-search-text"
+                name="q" id="q" required>
+            <fieldset class="search-criteria js-search-criteria">
+                <legend>Narrow results</legend>
+                <input type="checkbox" name="diet" value="high-protein"> High-Protein<br>
+                <input type="checkbox" name="diet" value="low-carb"> Low-Carb<br>
+                <input type="checkbox" name="diet" value="low-fat"> Low-Fat<br>
+            </fieldset>
+            <button type="submit" class="btn btn--green js-btn-search-submit">Search</button>
+        </form>
+    </div>
+
+    <!-- JAVASCRIPT-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>    
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
