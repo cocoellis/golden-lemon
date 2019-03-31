@@ -7,12 +7,13 @@ I am always looking for healthy recipes. There are very few single source applic
 
 Screenshots
 Login Screen/Landing Page:
-￼￼
+![homepage](https://user-images.githubusercontent.com/38797064/55293313-e5723380-53ba-11e9-9cd6-b8c1ac0aaa8d.jpg)
 
 Search Form:
-￼
+￼![Screen Shot 2019-03-31 at 1 03 44 PM](https://user-images.githubusercontent.com/38797064/55293270-65e46480-53ba-11e9-887e-0fcb0142198f.png)
+
 Search Results:
-￼
+￼![Image](https://user-images.githubusercontent.com/38797064/55293305-ca9fbf00-53ba-11e9-89d0-8b7deaab83bb.jpg)
 
 Built With
 
