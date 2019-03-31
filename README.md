@@ -1,4 +1,4 @@
-#golden lemon
+golden lemon
 
 A health-conscious recipe search application. Users can search for their favorite recipes by ingredients and select healthy filters.
 
@@ -7,7 +7,7 @@ I am always looking for healthy recipes. There are very few single source applic
 
 Screenshots
 Login Screen/Landing Page:
-￼
+￼￼
 
 Search Form:
 ￼
@@ -20,7 +20,6 @@ Built With
 * jQuery
 * HTML
 * CSS
-* 
 
 Summary
 * Search amongst thousands of recipes by recipe name or ingredient
